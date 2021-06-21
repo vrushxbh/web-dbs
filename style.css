@@ -1,3 +1,7 @@
+* {
+    font-size: 13px;
+}
+
 .header {
     
     width: 100%;
@@ -5,7 +9,11 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(93, 93, 93);
+}
+
+a:hover {
+    color: rgb(93, 93, 93);
 }
 
 .main-content {
@@ -28,6 +36,7 @@ a {
 
 .post-hr {
     width: 50%;
+    border-top: 2px #6c757d solid;
 }
 
 .post-body {
@@ -46,6 +55,50 @@ a {
 
 .footer {
     width: 100%;
-    height: 5rem;
-    background: rgb(197, 197, 197);
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
 }
+
+.right-body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    color: gray;
+}
+
+.right-body-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 13rem;
+}
+
+body {
+    background: rgb(227,227,227);
+    background: linear-gradient(180deg, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 17%, rgba(255,255,255,1) 100%) no-repeat;
+}
+
+.bs {
+    color: rgb(110, 184, 0);
+}
+
+.profile-card {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+}
+
