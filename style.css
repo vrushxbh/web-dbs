@@ -7,6 +7,28 @@
     width: 100%;
 }
 
+.navbar {
+    border-radius: 5px;
+    box-shadow: 2px 3px 12px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 3px 12px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 3px 12px -3px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+
+.navbar-expand-lg .nav-item .nav-link:hover {
+    background: url(https://www.tifr.res.in/~dbs/img/menuItemBack.png);
+}
+
+.navbar-expand-lg .nav-item .nav-link.active {
+    background: url(https://www.tifr.res.in/~dbs/img/menuItemBack.png);
+}
+
 a {
     text-decoration: none;
     color: rgb(93, 93, 93);
@@ -44,8 +66,18 @@ a:hover {
     color: gray;
 }
 
+.post-body-latest-news {
+    font-size: 16px;
+    color: #719E07;
+}
+
+.post-body-latest-news a {
+    font-size: 16px;
+}
+
 .history-image {
     width: 100%;
+    height: 100%;
 }
 
 .history-post {
@@ -95,10 +127,74 @@ body {
 
 .profile-card {
     margin: 1rem;
-    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border-radius: 10px;
-    border: 1px gray solid;
+    border: 1px lightgray solid;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+.image-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-img {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.main {
+    width: 899px;
+    margin: auto;
+    min-height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.degree-post {
+    display: flex;
+}
+
+.degree-post-body {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.degree-post-title {
+    color: gray;
+    font-weight: normal;
+}
+
+.menu-items ul {
+    
+}
+
+.menu-items li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px lightgrey solid;
+}
+
+.menu-items a {
+    font-size: 15px;
+    color: gray;
+}
+
+.submenu {
+    padding-left: 1.5em;
+}
