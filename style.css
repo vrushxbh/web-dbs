@@ -195,6 +195,18 @@ body {
     color: gray;
 }
 
+.menu-items a:hover {
+    color: #719E07;
+}
+
 .submenu {
     padding-left: 1.5em;
+}
+
+.td-left {
+    width: 10em;
+}
+
+.td-courses {
+    width: 30em;
 }
